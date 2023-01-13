@@ -108,6 +108,7 @@ const UserForm = () => {
                                     car: e.target.value,
                                 })
                             }>
+                            <option></option>
                             {carOptions.map((car) => (
                                 <option value={car} key={car}>
                                     {car}
